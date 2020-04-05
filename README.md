@@ -15,6 +15,13 @@ This library aims to be as close to a reference implementation of the [Kademlia 
 pip install kademlia
 ```
 
+```
+cd examples
+python first_node.py
+python set.py localhost 5678 something LOOKATTHIS
+python get.py localhost 8468 something
+```
+
 ## Usage
 *This assumes you have a working familiarity with [asyncio](https://docs.python.org/3/library/asyncio.html).*
 
